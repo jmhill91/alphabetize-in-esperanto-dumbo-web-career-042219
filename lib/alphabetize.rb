@@ -3,3 +3,7 @@ def alphabetize(arr)
 # sortedWord= arr.sort_by{ |word| word }
 # sortedWord
 # end
+  arr.sort_by do |word|
+    
+  end 
+end
