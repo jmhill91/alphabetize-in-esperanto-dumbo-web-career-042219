@@ -1,4 +1,5 @@
 def alphabetize(arr)
  sortedWord=[]
- sortedWord= arr.sort{
+ sortedWord= arr.sort{ |a,b| a<=>b}
+ sortedWord
 end
