@@ -1,3 +1,4 @@
 def alphabetize(arr)
-  # code here
+ sortedWord=[]
+ sortedWord= arr.sort{
 end
