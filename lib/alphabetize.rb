@@ -3,10 +3,10 @@ def alphabetize(arr)
 # sortedWord= arr.sort_by{ |word| word }
 # sortedWord
 # end
-ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+alphabet = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   arr.sort_by do |word|
     word.split('').collect do |letter|
-      ALPHABET.index(letter)
+      alphabet.index(letter)
     end
   end 
 end
