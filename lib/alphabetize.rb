@@ -5,6 +5,6 @@ def alphabetize(arr)
 # end
   arr.sort_by do |word|
     word.split('').collect do |letter|
-      ALPHABET.index
+      ALPHABET.index(letter)
   end 
 end
