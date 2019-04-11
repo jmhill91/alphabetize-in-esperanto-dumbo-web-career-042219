@@ -4,6 +4,7 @@ def alphabetize(arr)
 # sortedWord
 # end
   arr.sort_by do |word|
-    word.split('')
+    word.split('').collect do |letter|
+      
   end 
 end
